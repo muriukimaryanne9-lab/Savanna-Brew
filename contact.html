@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Savanna Brew Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Savanna Brew Café</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTACT INTRODUCTION -->
+    <main>
+
+        <section class="contact-intro">
+            <h2>Get in Touch</h2>
+            <p>
+                Have a question, want to make a reservation, or simply want
+                to enjoy a cup of Kenyan coffee? We would love to hear from you.
+            </p>
+        </section>
+
+        <!-- CONTACT INFORMATION -->
+        <section class="contact-container">
+
+            <div class="contact-info">
+                <h2>Visit Savanna Brew Café</h2>
+
+                <p><strong>Location:</strong> Westlands, Nairobi, Kenya</p>
+
+                <p><strong>Phone:</strong> +254 700 123 456</p>
+
+                <p><strong>Email:</strong> hello@savannabrew.example</p>
+
+                <h3>Opening Hours</h3>
+
+                <table class="hours-table">
+                    <tr>
+                        <th>Day</th>
+                        <th>Opening Hours</th>
+                    </tr>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>7:00 AM - 8:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>8:00 AM - 9:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- RESERVATION FORM -->
+            <div class="reservation-form">
+                <h2>Make a Reservation</h2>
+
+                <p>Fill in the form below to request a table.</p>
+
+                <form action="#" method="post">
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your full name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone"
+                           placeholder="e.g. 0712345678" required>
+
+                    <label for="date">Reservation Date</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="time">Reservation Time</label>
+
+<label for="time">Reservation Time</label>
+<input
+    type="text"
+    id="time"
+    name="time"
+    placeholder="e.g. 11:45 AM"
+    pattern="(0?[1-9]|1[0-2]):[0-5][0-9]\s?(AM|PM|am|pm)"
+    title="Enter time in the format 11:45 AM"
+    required
+>
+
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Select number of guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 or more Guests</option>
+                    </select>
+
+                    <label for="requests">Special Requests</label>
+                    <textarea id="requests" name="requests"
+                              rows="5"
+                              placeholder="Any special requests?"></textarea>
+
+                    <button type="submit" class="btn">
+                        Submit Reservation
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Savanna Brew Café. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
